@@ -1,0 +1,34 @@
+{
+  "id": "68793b6d069887abf2f70210",
+  "title": "Next.js Advanced Course",
+  "description": "10-week course",
+  "learningObjectives": [
+    "Understand the fundamentals of Next.js",
+    "Design advanced Next.js projects",
+    "Understand server-rendering in Next.js",
+    "Explore advanced Next.js features",
+    "Build a final project using Next.js"
+  ],
+  "finalProjectDetails": {
+    "overview": "Students will build a full Next.js application incorporating concepts covered",
+    "planningResources": [
+      "Next.js Documentation",
+      "React Documentation",
+      "MDN Web Docs"
+    ],
+    "submissionInstructions": "Instructions for code push on GitHub and deployment through Vercel.",
+    "requirements": [
+      ""
+    ]
+  },
+  "createdBy": {
+    "name": "Tammam Alwafai",
+    "githubUsername": "1992tw"
+  },
+  "contributors": [],
+  "status": "pending",
+  "originalGithubUrl": null,
+  "createdAt": "2025-07-17T18:05:33.033Z",
+  "updatedAt": "2025-07-17T18:05:33.033Z",
+  "remoteGithubUrl": "https://github.com/testo-org-101/next-js-advanced-course"
+}
