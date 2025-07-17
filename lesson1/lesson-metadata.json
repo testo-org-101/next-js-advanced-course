@@ -2,14 +2,196 @@
   "id": "68793b6d069887abf2f7021b",
   "lessonNumber": 1,
   "title": "Introduction to Next.js",
-  "status": "pending",
+  "status": "complete",
   "assignment": {
-    "title": "Assignment will be generated",
-    "objective": "Objective will be provided when lesson is generated",
-    "expectedCapabilities": [],
-    "instructions": [],
-    "tasks": [],
-    "submissionInstructions": "Submission instructions will be provided when lesson is generated"
+    "title": "Getting Started with Your First Next.js Project",
+    "objective": "Create and setup your first Next.js app and explore its structure.",
+    "expectedCapabilities": [
+      "Install Node.js",
+      "Create a Next.js App",
+      "Understand Project Structure"
+    ],
+    "submissionInstructions": "Submit a zipped file of your application along with a document explaining each major directory.",
+    "tasks": [
+      {
+        "taskNumber": 1,
+        "title": "Create a basic Next.js app",
+        "description": "Set up a new Next.js app and identify important project structure features.",
+        "codeExample": "npx create-next-app my-first-nextjs",
+        "_id": "68793fbb069887abf2f702ad"
+      }
+    ],
+    "instructions": [
+      {
+        "partNumber": 1,
+        "steps": [
+          {
+            "taskNumber": 1,
+            "title": "Install Node.js",
+            "description": "Download and install Node.js from the official website to get started with Next.js.",
+            "codeExample": "N/A",
+            "_id": "68793fbb069887abf2f702a9"
+          },
+          {
+            "taskNumber": 2,
+            "title": "Create a Next.js Project",
+            "description": "Use create-next-app to set up your first Next.js application.",
+            "codeExample": "npx create-next-app first-next-app",
+            "_id": "68793fbb069887abf2f702aa"
+          }
+        ],
+        "_id": "68793fbb069887abf2f702a8"
+      },
+      {
+        "partNumber": 2,
+        "steps": [
+          {
+            "taskNumber": 3,
+            "title": "Explore Project Structure",
+            "description": "Identify key directories like 'pages', 'components', and 'public' and their purposes.",
+            "codeExample": "N/A",
+            "_id": "68793fbb069887abf2f702ac"
+          }
+        ],
+        "_id": "68793fbb069887abf2f702ab"
+      }
+    ],
+    "checklist": [
+      "Node.js Installed",
+      "Next.js App Created",
+      "Project Structure Understood"
+    ],
+    "checkForUnderstanding": [
+      {
+        "question": "What command is used to initialize a Next.js project?",
+        "options": [
+          "npx create-next-app",
+          "npm init",
+          "node init-nextjs"
+        ],
+        "answer": "npx create-next-app",
+        "_id": "68793fbb069887abf2f702a6"
+      },
+      {
+        "question": "What purpose does the 'public' directory serve in a Next.js project?",
+        "options": [
+          "Server configuration",
+          "Routing",
+          "Static files"
+        ],
+        "answer": "Static files",
+        "_id": "68793fbb069887abf2f702a7"
+      }
+    ]
   },
-  "subsections": []
+  "subsections": [
+    {
+      "subsectionOrder": 1,
+      "title": "What is Next.js?",
+      "content": "Next.js is a powerful React framework that enables several extra features, including server-side rendering and generating static websites for React-based web applications.",
+      "videoUrl": "http://video.com/whatIsNextJs",
+      "codeExamples": [],
+      "externalLinks": [
+        "https://nextjs.org/docs"
+      ],
+      "quizzes": [
+        {
+          "question": "What framework does Next.js build upon?",
+          "options": [
+            "Vue.js",
+            "Angular",
+            "React"
+          ],
+          "answer": "React",
+          "_id": "68793fbb069887abf2f7029e"
+        },
+        {
+          "question": "Which of the following is a feature of Next.js?",
+          "options": [
+            "Client-side rendering only",
+            "Server-side rendering",
+            "No routing capabilities"
+          ],
+          "answer": "Server-side rendering",
+          "_id": "68793fbb069887abf2f7029f"
+        }
+      ],
+      "_id": "68793fbb069887abf2f7029d"
+    },
+    {
+      "subsectionOrder": 2,
+      "title": "Setting Up a Next.js Project",
+      "content": "To start using Next.js, you will need to install Node.js on your machine and create a new Next.js project using create-next-app. This tool simplifies the setup process for you.",
+      "videoUrl": "http://video.com/setupNextJsProject",
+      "codeExamples": [
+        "npx create-next-app my-next-app"
+      ],
+      "externalLinks": [
+        "https://nodejs.org/en/download/"
+      ],
+      "quizzes": [
+        {
+          "question": "What tool simplifies setting up a Next.js project?",
+          "options": [
+            "create-react-app",
+            "create-next-app",
+            "next-cli"
+          ],
+          "answer": "create-next-app",
+          "_id": "68793fbb069887abf2f702a1"
+        },
+        {
+          "question": "What is the initial command to start a Next.js project using create-next-app?",
+          "options": [
+            "npx create-next-app",
+            "npm start",
+            "node create-next-app"
+          ],
+          "answer": "npx create-next-app",
+          "_id": "68793fbb069887abf2f702a2"
+        }
+      ],
+      "_id": "68793fbb069887abf2f702a0"
+    },
+    {
+      "subsectionOrder": 3,
+      "title": "Basic Structure of a Next.js Project",
+      "content": "A Next.js project is structured to include pages, components, and public directories which serve as the basis for routing, UI components, and static file management respectively.",
+      "videoUrl": "http://video.com/nextJsProjectStructure",
+      "codeExamples": [
+        "import React from 'react'; import Link from 'next/link'; const Page = () => (<div><h1>Hello, Next.js!</h1><Link href='/about'><a>About</a></Link></div>); export default Page;"
+      ],
+      "externalLinks": [],
+      "quizzes": [
+        {
+          "question": "What directory is used for routing in Next.js?",
+          "options": [
+            "components",
+            "pages",
+            "public"
+          ],
+          "answer": "pages",
+          "_id": "68793fbb069887abf2f702a4"
+        },
+        {
+          "question": "Where would you place static files like images in a Next.js project?",
+          "options": [
+            "pages",
+            "components",
+            "public"
+          ],
+          "answer": "public",
+          "_id": "68793fbb069887abf2f702a5"
+        }
+      ],
+      "_id": "68793fbb069887abf2f702a3"
+    }
+  ],
+  "supplementalVideos": [
+    "http://video.com/nextJsOverview"
+  ],
+  "references": [
+    "https://nextjs.org/docs/getting-started",
+    "https://nodejs.org/en/download/"
+  ]
 }
